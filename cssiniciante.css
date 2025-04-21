@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #d0f0c0, #ffffff);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Linha decorativa */
+.linha-degrade-vertical {
+    width: 80%;
+    height: 8px;
+    background: linear-gradient(to right, #00ff87, #60efff);
+    margin: 20px auto;
+    border-radius: 4px;
+}
+
+/* Conteúdo principal */
+.conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+/* Listas */
+.atividade-lista  {
+    list-style-type: decimal;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 300px;
+    padding-left: 80px;
+    font-weight: bold;
+    color: #2d3436;
+}
+
+/* Atividade */
+.atividade {
+    margin-top: 30px;
+}
+
+/* Botão estilizado */
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #f1c40f;
+    color:white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+
+button:hover {
+    background-color: #1976d2;
+    color: #0609d1;
+}
+
+/* Rodapé */
+.rodape {
+    margin-top: 0px;
+    font-size: 14px;
+    color: #2c0361;
+}
+
+#info {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.caixa { 
+    width: 300px;
+    height: 100px;
+    background-color: rgb(1, 102, 6);
+    margin: 20px auto;
+    line-height: 100px;
+    border-radius: 8px;
+    color: #ccf70c;
+    font-weight: bold;
+}
+#mensagem{
+    font-size: 18px;
+    color: black;
+    transition: color 0.3s ease;
+    
+}
+
+
